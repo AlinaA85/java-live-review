@@ -2,6 +2,11 @@ package week07;
 
 import java.util.Scanner;
 
+// 
+
+// use do while loop and scanner object
+//   
+
 public class GiveMe5Dollars {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -13,6 +18,7 @@ public class GiveMe5Dollars {
         } while (dollars != 5);
 
         System.out.println("Thank you for $5");
+        
         input.close();
     }
 }
